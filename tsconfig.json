@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2016",
+    "module":"esnext",
+    "lib": ["esnext", "dom"],
+    "types": ["jest", "node"],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist/lib",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}
